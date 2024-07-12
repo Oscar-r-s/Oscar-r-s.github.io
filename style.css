@@ -27,10 +27,10 @@ body {
 
 @keyframes autoRun {
   from {
-    transform: perspective(500px) rotateX(-10deg) rotateY(0deg);
+    transform: perspective(500px) rotateX(-0deg) rotateY(0deg);
   }
   to {
-    transform: perspective(500px) rotateX(-10deg) rotateY(360deg);
+    transform: perspective(500px) rotateX(-0deg) rotateY(360deg);
   }
 }
 
@@ -77,31 +77,20 @@ body {
   max-width: 200px;
   position: relative;
   z-index: 3;
-  top: 100px; /* Moves the h1 element down */
-  left: -100px; /* Moves the h1 element to the left */
-}
-
-.banner .content h1::after {
-  position: absolute;
-  inset: 0 0 0 0;
-  content: attr(data-content);
-  z-index: 2;
-  color: transparent;
+  top: 140px; /* Moves the h1 element down */
+  left: -100px; /* Moves the h1 element to the right */
 }
 
 .banner .content .author {
   font-family: "Oswald";
+  font-size: 4em;
   color: #bbbdc9;
   text-align: right bottom;
-  max-width: 300px;
+  max-width: 600px;
   position: relative;
   z-index: 3;
-  top: 100px; /* Moves the h1 element down */
-  left: -100px; /* Moves the h1 element to the left */
-}
-
-.banner .content h2 {
-  font-size: 3em;
+  top: 200px; /* Moves the h1 element down */
+  right: -150px; /* Moves the h1 element to the left */
 }
 
 .banner .content .model {
@@ -116,4 +105,147 @@ body {
   background-repeat: no-repeat;
   background-position: top center; /* Position the image from the top */
   z-index: 2;
+}
+
+/*THIS PART SHOWS HOW TO PROCEED FOR SMALLER SCREENS => WIDTH SECTION*/
+@media screen and (max-width: 1650px) {
+  .banner .content h1 {
+    font-size: 5em;
+    top: 120px; /* Moves the h1 element down */
+    left: 90px; /* Moves the h1 element to the right */
+  }
+  .banner .content .author {
+    font-size: 3em;
+    top: 160px; /* Moves the h1 element down */
+    right: 10px; /* Moves the h1 element to the left */
+  }
+}
+@media screen and (max-width: 1420px) {
+  .banner .content .author {
+    top: 160px; /* Moves the h1 element down */
+    right: 65px; /* Moves the h1 element to the left */
+  }
+}
+@media screen and (max-width: 1400px) {
+  .banner .content .author {
+    top: 160px; /* Moves the h1 element down */
+    right: 30px; /* Moves the h1 element to the left */
+  }
+}
+@media screen and (max-width: 1310px) {
+  .banner .content h1 {
+    font-size: 4em;
+  }
+  .banner .content .author {
+    font-size: 2em;
+    width: 300px;
+    right: 100px; /* Moves the h1 element to the left */
+  }
+}
+@media screen and (max-width: 1125px) {
+  .banner .content h1 {
+    font-size: 3em;
+    top: 110px; /* Moves the h1 element down */
+    left: 90px; /* Moves the h1 element to the right */
+  }
+  .banner .content .author {
+    font-size: 1.5em;
+    width: 300px;
+    top: 140px;
+    right: 80px; /* Moves the h1 element to the left */
+  }
+}
+@media screen and (max-width: 985px) {
+  .banner .content .author {
+    font-size: 1.5em;
+    top: 140px;
+    right: 30px; /* Moves the h1 element to the left */
+  }
+}
+@media screen and (max-width: 925px) {
+  .banner .content h1 {
+    font-size: 3em;
+    top: 110px; /* Moves the h1 element down */
+    left: 80px; /* Moves the h1 element to the right */
+  }
+}
+@media screen and (max-width: 895px) {
+  .banner .content h1 {
+    left: 60px; /* Moves the h1 element to the right */
+  }
+  .banner .content .author {
+    right: 20px;
+  }
+}
+@media screen and (max-width: 855px) {
+  .banner .content h1 {
+    left: 40px; /* Moves the h1 element to the right */
+  }
+  .banner .content .author {
+    right: 10px;
+  }
+}
+@media screen and (max-width: 825px) {
+  .banner .content h1 {
+    left: 30px; /* Moves the h1 element to the right */
+  }
+  .banner .content .author {
+    right: 0px;
+    left: 10px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .banner .content .txt {
+    text-shadow: 2px 0 #3a3131;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .banner .content h1 {
+    top: 100px;
+    font-size: 2.5em;
+  }
+  .banner .content .author {
+    top: 120px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .banner .content h1 {
+    top: 215px;
+    font-size: 2.5em;
+  }
+  .banner .content .author {
+    left: 220px;
+    right: 0px;
+    top: 115px;
+  }
+}
+@media screen and (max-width: 489px) {
+  .banner .content h1 {
+    top: 270px;
+    left: 25px;
+  }
+  .banner .content h2 {
+    width: 200px;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 465px) {
+  .banner .content h1 {
+    text-align: center;
+    width: 100%;
+    top: 90px; /* Adjust if necessary */
+    left: 30%; /* Ensure it starts from the left */
+    position: relative; /* Ensure the positioning works */
+    clear: both;
+    display: inline-block;
+    overflow: hidden; /* Hide overflowing text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-size: 1.5em; /* Adjust font size as needed */
+    padding: 0 10px; /* Add some padding to avoid cutting off text */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+  }
+  .banner .content h2 {
+    display: none;
+  }
 }
