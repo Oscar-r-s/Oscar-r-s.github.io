@@ -21,55 +21,73 @@ export function App() {
           className="item"
           style={{ "--position": "2" } as React.CSSProperties}
         >
-          <img src="/images/pic2.jpg" alt="" />
+          <a href="https://github.com/Oscar-r-s" target="_blank">
+            <img src="/images/pic2.jpg" alt="" />
+          </a>
         </div>
         <div
           className="item"
           style={{ "--position": "3" } as React.CSSProperties}
         >
-          <img src="/images/pic3.jpg" alt="" />
+          <a href="https://github.com/Oscar-r-s" target="_blank">
+            <img src="/images/pic3.jpg" alt="" />
+          </a>
         </div>
         <div
           className="item"
           style={{ "--position": "4" } as React.CSSProperties}
         >
-          <img src="/images/pic4.jpg" alt="" />
+          <a href="https://github.com/Oscar-r-s" target="_blank">
+            <img src="/images/pic4.jpg" alt="" />
+          </a>
         </div>
         <div
           className="item"
           style={{ "--position": "5" } as React.CSSProperties}
         >
-          <img src="/images/pic5.jpg" alt="" />
+          <a href="https://github.com/Oscar-r-s" target="_blank">
+            <img src="/images/pic5.jpg" alt="" />
+          </a>
         </div>
         <div
           className="item"
           style={{ "--position": "6" } as React.CSSProperties}
         >
-          <img src="/images/pic6.jpg" alt="" />
+          <a href="https://github.com/Oscar-r-s" target="_blank">
+            <img src="/images/pic6.jpg" alt="" />
+          </a>
         </div>
         <div
           className="item"
           style={{ "--position": "7" } as React.CSSProperties}
         >
-          <img src="/images/pic7.jpg" alt="" />
+          <a href="https://github.com/Oscar-r-s" target="_blank">
+            <img src="/images/pic7.jpg" alt="" />
+          </a>
         </div>
         <div
           className="item"
           style={{ "--position": "8" } as React.CSSProperties}
         >
-          <img src="/images/pic8.jpg" alt="" />
+          <a href="https://github.com/Oscar-r-s" target="_blank">
+            <img src="/images/pic8.jpg" alt="" />
+          </a>
         </div>
         <div
           className="item"
           style={{ "--position": "9" } as React.CSSProperties}
         >
-          <img src="/images/pic9.jpg" alt="" />
+          <a href="https://github.com/Oscar-r-s" target="_blank">
+            <img src="/images/pic9.jpg" alt="" />
+          </a>
         </div>
         <div
           className="item"
           style={{ "--position": "10" } as React.CSSProperties}
         >
-          <img src="/images/pic10.jpg" alt="" />
+          <a href="https://github.com/Oscar-r-s" target="_blank">
+            <img src="/images/pic10.jpg" alt="" />
+          </a>
         </div>
       </div>
       <div className="content">
