@@ -12,7 +12,10 @@ export function App() {
           className="item"
           style={{ "--position": "1" } as React.CSSProperties}
         >
-          <img src="/images/pic1.jpg" alt="" />
+          //The image is a link to my github profile
+          <a href="https://github.com/Oscar-r-s">
+            <img src="/images/pic1.jpg" alt="" />
+          </a>
         </div>
         <div
           className="item"
