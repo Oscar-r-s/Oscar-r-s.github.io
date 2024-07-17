@@ -13,7 +13,7 @@ export function App() {
           style={{ "--position": "1" } as React.CSSProperties}
         >
           //The image is a link to my github profile
-          <a href="https://github.com/Oscar-r-s">
+          <a href="https://github.com/Oscar-r-s" target="_blank">
             <img src="/images/pic1.jpg" alt="" />
           </a>
         </div>
