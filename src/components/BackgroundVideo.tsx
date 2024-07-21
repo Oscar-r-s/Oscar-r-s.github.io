@@ -9,6 +9,7 @@ function BackgroundVideo({}: Props) {
         src={videoBg}
         className="background-video"
         autoPlay
+        playsInline
         loop
         muted
       ></video>
