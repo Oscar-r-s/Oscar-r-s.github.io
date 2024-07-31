@@ -10,7 +10,7 @@ function Slider({}: Props) {
         style={{ "--position": "1" } as React.CSSProperties}
       >
         <a href="https://github.com/Oscar-r-s" target="_blank">
-          <img src="/images/Slider/pic1.jpg" alt="" />
+          <img src="/images/github-mark/github-mark-white.svg" alt="" />
         </a>
       </div>
       <div
@@ -18,7 +18,7 @@ function Slider({}: Props) {
         style={{ "--position": "2" } as React.CSSProperties}
       >
         <a href="https://github.com/Oscar-r-s" target="_blank">
-          <img src="/images/Slider/pic2.jpg" alt="" />
+          <img src="/images/github-mark/github-mark-white.svg" alt="" />
         </a>
       </div>
       <div
@@ -26,7 +26,7 @@ function Slider({}: Props) {
         style={{ "--position": "3" } as React.CSSProperties}
       >
         <a href="https://github.com/Oscar-r-s" target="_blank">
-          <img src="/images/Slider/pic3.jpg" alt="" />
+          <img src="/images/github-mark/github-mark-white.svg" alt="" />
         </a>
       </div>
       <div
@@ -34,7 +34,7 @@ function Slider({}: Props) {
         style={{ "--position": "4" } as React.CSSProperties}
       >
         <a href="https://github.com/Oscar-r-s" target="_blank">
-          <img src="/images/Slider/pic4.jpg" alt="" />
+          <img src="/images/github-mark/github-mark-white.svg" alt="" />
         </a>
       </div>
       <div
@@ -42,7 +42,7 @@ function Slider({}: Props) {
         style={{ "--position": "5" } as React.CSSProperties}
       >
         <a href="https://github.com/Oscar-r-s" target="_blank">
-          <img src="/images/Slider/pic5.jpg" alt="" />
+          <img src="/images/github-mark/github-mark-white.svg" alt="" />
         </a>
       </div>
       <div
@@ -50,7 +50,7 @@ function Slider({}: Props) {
         style={{ "--position": "6" } as React.CSSProperties}
       >
         <a href="https://github.com/Oscar-r-s" target="_blank">
-          <img src="/images/Slider/pic6.jpg" alt="" />
+          <img src="/images/github-mark/github-mark-white.svg" alt="" />
         </a>
       </div>
       <div
@@ -58,7 +58,7 @@ function Slider({}: Props) {
         style={{ "--position": "7" } as React.CSSProperties}
       >
         <a href="https://github.com/Oscar-r-s" target="_blank">
-          <img src="/images/Slider/pic7.jpg" alt="" />
+          <img src="/images/github-mark/github-mark-white.svg" alt="" />
         </a>
       </div>
       <div
@@ -66,7 +66,7 @@ function Slider({}: Props) {
         style={{ "--position": "8" } as React.CSSProperties}
       >
         <a href="https://github.com/Oscar-r-s" target="_blank">
-          <img src="/images/Slider/pic8.jpg" alt="" />
+          <img src="/images/github-mark/github-mark-white.svg" alt="" />
         </a>
       </div>
       <div
@@ -74,7 +74,7 @@ function Slider({}: Props) {
         style={{ "--position": "9" } as React.CSSProperties}
       >
         <a href="https://github.com/Oscar-r-s" target="_blank">
-          <img src="/images/Slider/pic9.jpg" alt="" />
+          <img src="/images/github-mark/github-mark-white.svg" alt="" />
         </a>
       </div>
       <div
@@ -82,7 +82,7 @@ function Slider({}: Props) {
         style={{ "--position": "10" } as React.CSSProperties}
       >
         <a href="https://github.com/Oscar-r-s" target="_blank">
-          <img src="/images/Slider/pic10.jpg" alt="" />
+          <img src="/images/github-mark/github-mark-white.svg" alt="" />
         </a>
       </div>
     </div>
