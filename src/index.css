@@ -40,7 +40,7 @@ body {
 .banner .slider {
   position: absolute;
   width: 200px;
-  height: 250px;
+  height: 300px;
   top: 10%;
   left: calc(50% - 100px);
   transform-style: preserve-3d;
@@ -51,10 +51,10 @@ body {
 
 @keyframes autoRun {
   from {
-    transform: perspective(500px) rotateX(10deg) rotateY(0deg);
+    transform: perspective(500px) rotateX(0deg) rotateY(0deg);
   }
   to {
-    transform: perspective(500px) rotateX(10deg) rotateY(360deg);
+    transform: perspective(500px) rotateX(0deg) rotateY(360deg);
   }
 }
 
