@@ -75,29 +75,38 @@ body {
 .banner .content {
   position: absolute;
   bottom: 0;
-  left: 50%;
   transform: translateX(-50%);
   width: min(1400px, 100vw);
   height: max-content;
   padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   z-index: 2;
 }
 
 .banner .content .model {
+  position: relative;
   background-image: url(/images/Model.png);
   width: 100%;
+  top: 10vw;
   height: 64vh;
-  position: absolute;
   bottom: 0;
-  left: 0;
-  padding-top: 10%; /* Add padding to ensure top part is visible */
+  left: 50%;
+  padding-top: 50%; /* Add padding to ensure top part is visible */
   background-size: auto 130%; /* Scale based on your needs */
   background-repeat: no-repeat;
   background-position: top center; /* Position the image from the top */
   pointer-events: none; /* This makes the model transparent to mouse events */
   z-index: 3;
+}
+
+@media (max-width: 600px) {
+  .banner .content .model {
+    width: 100%;
+    top: 21vw;
+    left: 25%;
+    padding-top: 130%;
+  }
 }
